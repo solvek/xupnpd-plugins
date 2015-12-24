@@ -7,7 +7,8 @@ Just copy a plugin file from `plugins` directory to your xupnpd directory (on ub
 # Plugins
 
 ## Vsetv
-Provides videos from site [VseTV.net](http://vsetv.net)
+Provides videos from site [VseTV.net](http://vsetv.net).
+
 Depends on: plugin [hls](https://github.com/clark15b/xupnpd/blob/master/src/plugins/xupnpd_hls.lua)
 
 # Usefull information for developers
