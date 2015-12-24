@@ -55,7 +55,7 @@ function vsetv_sendurl(vsetv_url,range)
         if cfg.debug>0 then print('Vsetv Real URL: '..url) end
 --	http.sendurl(url,1,range)
 --        plugin_sendurl(vsetv_url,url,range)
-	plugins.hls.sendurl(vsetv_url,range)
+	plugins.hls.sendurl(url,range)
     else
         if cfg.debug>0 then print('Vsetv Real URL is not found') end
 
